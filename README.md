@@ -34,7 +34,7 @@ Knowing SemVer can be **<u>useful when you develop software that uses external d
 To allow an npm dependency to update to the latest PATCH version, you can prefix the dependency’s version with the **tilde (~) character**. Here's an example of how to allow updates to any 1.3.x version.
 `"package": "~1.3.8"`
 
-* ##Use the Caret-Character to Use the Latest Minor Version of a Dependency
+* ## Use the Caret-Character to Use the Latest Minor Version of a Dependency
 Similar to how the tilde we learned about in the last challenge allows npm to install the latest PATCH for a dependency, the **caret (^) allows npm to install future updates as well. _The difference is that the caret will allow both MINOR updates and PATCHes.**_
 
 Your current version of @freecodecamp/example should be "~1.2.13" which allows npm to install to the latest 1.2.x version. If you were to use the caret (^) as a version prefix instead, npm would be allowed to update to any 1.x.x version.
