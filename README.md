@@ -27,14 +27,14 @@ Knowing SemVer can be **<u>useful when you develop software that uses external d
 ### The **MAJOR** version should increment when you make incompatible API changes. 
 ### The **MINOR** version should increment when you add functionality in a backwards-compatible manner. 
 ### The **PATCH** version should increment when you make backwards-compatible bug fixes. 
-### _This means that PATCHes are bug fixes and MINORs add new features but neither of them break what worked before._ 
+### This means that PATCHes are bug fixes and MINORs add new features but neither of them break what worked before. 
 ### Finally, _MAJORs add changes that won’t work with earlier versions._
 
 * ## Use the Tilde-Character to Always Use the Latest Patch Version of a Dependency
 To allow an npm dependency to update to the latest PATCH version, you can prefix the dependency’s version with the **tilde (~) character**. Here's an example of how to allow updates to any 1.3.x version.
 `"package": "~1.3.8"`
 
-* ## Use the Caret-Character to Use the Latest Minor Version of a Dependency
+* ##Use the Caret-Character to Use the Latest Minor Version of a Dependency
 Similar to how the tilde we learned about in the last challenge allows npm to install the latest PATCH for a dependency, the **caret (^) allows npm to install future updates as well. _The difference is that the caret will allow both MINOR updates and PATCHes.**_
 
 Your current version of @freecodecamp/example should be "~1.2.13" which allows npm to install to the latest 1.2.x version. If you were to use the caret (^) as a version prefix instead, npm would be allowed to update to any 1.x.x version.
